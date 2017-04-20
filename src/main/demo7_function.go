@@ -31,6 +31,7 @@ func (n *Num) ChangeNum() {
 	n.a = n.a * n.a
 	n.b = n.b * n.b
 }
+
 // 【方法接收者】为类型的方法
 func (n Num) ChangeNum2() {
 	// 计算后，n.a的值不会改变
