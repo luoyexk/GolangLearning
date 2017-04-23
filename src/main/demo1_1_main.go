@@ -8,10 +8,8 @@ import (
 )
 
 
-var a int
 
 func main() {
-
 	defer fmt.Println("这是延迟函数1")
 	defer fmt.Println("这是延迟函数2")
 
